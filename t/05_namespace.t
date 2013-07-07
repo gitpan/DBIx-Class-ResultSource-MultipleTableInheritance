@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use lib 't/lib';
 use LoadTest;
-use Test::More qw(no_plan);
+use Test::More tests => 10;
 use Devel::Dwarn;
 
 my $mti = LoadTest->source('Foo');

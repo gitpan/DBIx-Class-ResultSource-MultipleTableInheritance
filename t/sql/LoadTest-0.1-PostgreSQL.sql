@@ -1,9 +1,9 @@
 -- 
 -- Created by SQL::Translator::Producer::PostgreSQL
--- Created on Wed Oct  5 18:48:41 2011
+-- Created on Sat Jul  6 19:45:27 2013
 -- 
 --
--- Table: just_a_table
+-- Table: just_a_table.
 --
 DROP TABLE "just_a_table" CASCADE;
 CREATE TABLE "just_a_table" (
@@ -13,7 +13,7 @@ CREATE TABLE "just_a_table" (
 );
 
 --
--- Table: mixin
+-- Table: mixin.
 --
 DROP TABLE "mixin" CASCADE;
 CREATE TABLE "mixin" (
@@ -23,7 +23,7 @@ CREATE TABLE "mixin" (
 );
 
 --
--- Table: _bar
+-- Table: _bar.
 --
 DROP TABLE "_bar" CASCADE;
 CREATE TABLE "_bar" (
@@ -34,7 +34,7 @@ CREATE TABLE "_bar" (
 CREATE INDEX "_bar_idx_b" on "_bar" ("b");
 
 --
--- Table: _foo
+-- Table: _foo.
 --
 DROP TABLE "_foo" CASCADE;
 CREATE TABLE "_foo" (
@@ -166,9 +166,9 @@ CREATE RULE _bar_delete_rule AS
 -- Foreign Key Definitions
 --
 
-ALTER TABLE "_bar" ADD FOREIGN KEY ("b")
+ALTER TABLE "_bar" ADD CONSTRAINT "_bar_fk_b" FOREIGN KEY ("b")
   REFERENCES "just_a_table" ("id") ON DELETE CASCADE ON UPDATE CASCADE DEFERRABLE;
 
-ALTER TABLE "_foo" ADD FOREIGN KEY ("a")
+ALTER TABLE "_foo" ADD CONSTRAINT "_foo_fk_a" FOREIGN KEY ("a")
   REFERENCES "_bar" ("id") ON DELETE CASCADE ON UPDATE CASCADE DEFERRABLE;
 

@@ -1,9 +1,9 @@
 -- 
 -- Created by SQL::Translator::Producer::PostgreSQL
--- Created on Wed Oct  5 18:48:42 2011
+-- Created on Sat Jul  6 19:45:28 2013
 -- 
 --
--- Table: _mesclun
+-- Table: _mesclun.
 --
 DROP TABLE "_mesclun" CASCADE;
 CREATE TABLE "_mesclun" (
@@ -13,7 +13,7 @@ CREATE TABLE "_mesclun" (
 );
 
 --
--- Table: _salad
+-- Table: _salad.
 --
 DROP TABLE "_salad" CASCADE;
 CREATE TABLE "_salad" (
@@ -23,7 +23,7 @@ CREATE TABLE "_salad" (
 );
 
 --
--- Table: dressing
+-- Table: dressing.
 --
 DROP TABLE "dressing" CASCADE;
 CREATE TABLE "dressing" (

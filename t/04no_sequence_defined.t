@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use lib 't/lib';
-use Test::More qw(no_plan);
+use Test::More tests => 5;
 use Test::Exception;
 use NoSequenceSalad;
 

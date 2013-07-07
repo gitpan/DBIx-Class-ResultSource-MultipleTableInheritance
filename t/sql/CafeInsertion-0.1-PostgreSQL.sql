@@ -1,9 +1,9 @@
 -- 
 -- Created by SQL::Translator::Producer::PostgreSQL
--- Created on Wed Oct  5 18:48:41 2011
+-- Created on Sat Jul  6 19:45:28 2013
 -- 
 --
--- Table: _coffee
+-- Table: _coffee.
 --
 DROP TABLE "_coffee" CASCADE;
 CREATE TABLE "_coffee" (
@@ -13,7 +13,7 @@ CREATE TABLE "_coffee" (
 );
 
 --
--- Table: _sumatra
+-- Table: _sumatra.
 --
 DROP TABLE "_sumatra" CASCADE;
 CREATE TABLE "_sumatra" (
@@ -23,7 +23,7 @@ CREATE TABLE "_sumatra" (
 );
 
 --
--- Table: chair
+-- Table: chair.
 --
 DROP TABLE "chair" CASCADE;
 CREATE TABLE "chair" (
@@ -33,7 +33,7 @@ CREATE TABLE "chair" (
 );
 
 --
--- Table: cream
+-- Table: cream.
 --
 DROP TABLE "cream" CASCADE;
 CREATE TABLE "cream" (
@@ -43,7 +43,7 @@ CREATE TABLE "cream" (
 );
 
 --
--- Table: sugar
+-- Table: sugar.
 --
 DROP TABLE "sugar" CASCADE;
 CREATE TABLE "sugar" (

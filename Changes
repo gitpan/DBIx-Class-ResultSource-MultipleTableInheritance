@@ -1,0 +1,9 @@
+Revison history for DBIx::Class::ResultSource::MultipleTableInheritance
+
+0.02      2013-07-06
+    - Add test counts, fix a dependency on DBD::Pg
+      (Amiri Barksdale)
+
+0.01      2011-10-05
+      Initial release.
+      (Amiri Barksdale)
