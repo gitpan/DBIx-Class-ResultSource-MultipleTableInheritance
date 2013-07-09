@@ -26,6 +26,7 @@ requires 'namespace::autoclean';
 requires 'parent';
 requires 'SQL::Translator' => '0.11016';
 
+test_requires 'Test::More' => '0.98';
 test_requires 'Module::Find';
 
 auto_install;

@@ -11,7 +11,7 @@ use String::TT qw(strip tt);
 use Scalar::Util qw(blessed);
 use namespace::autoclean -also => [qw/argify qualify_with body_cols pk_cols names_of function_body arg_hash rule_body/];
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 __PACKAGE__->mk_group_accessors(simple => qw(parent_source additional_parents));
 

@@ -1,6 +1,6 @@
 -- 
 -- Created by SQL::Translator::Producer::PostgreSQL
--- Created on Sat Jul  6 19:45:27 2013
+-- Created on Mon Jul  8 19:18:41 2013
 -- 
 --
 -- Table: just_a_table.
